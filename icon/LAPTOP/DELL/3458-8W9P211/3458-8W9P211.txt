@@ -1,0 +1,12 @@
+- Intel Core i5 5250U 1.6GHz - 3M
+- DDRAM 1x4GB/1600 (2 slot)
+- HDD 500GB 5400rpm
+- NVIDIA GF 820M 2GB DDR3 64bit // Intel HD Graphics 5500 
+- 14" HD WLed (1366x768) - VGA - Webcam
+- DVD-RW
+- Lan 1G - Wifi - Bluetooth
+- Reader - USB 3.0, 2xUSB 2.0
+- Weight 1.94Kg - Battery 4Cell
+- OS Ubuntu 14.04 
+- B?o hành 12 tháng
+13.900.000 VNÐ

@@ -1,0 +1,43 @@
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\DAL\DAL\bin\Debug\DAL.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\DAL\DAL\bin\Debug\DAL.pdb
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\DAL\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\DAL\DAL\obj\Debug\DAL.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\DAL\DAL\obj\Debug\DAL.pdb
+C:\Users\ThaiHung\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\DAL\DAL\bin\Debug\DAL.dll
+C:\Users\ThaiHung\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\DAL\DAL\bin\Debug\DAL.pdb
+C:\Users\ThaiHung\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\DAL\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\ThaiHung\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\DAL\DAL\obj\Debug\DAL.dll
+C:\Users\ThaiHung\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\DAL\DAL\obj\Debug\DAL.pdb
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\DAL\DAL\bin\Debug\DAL.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\DAL\DAL\bin\Debug\DAL.pdb
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\DAL\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\DAL\DAL\obj\Debug\DAL.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\DAL\DAL\obj\Debug\DAL.pdb
+E:\HocTap\DOAN thay Phet\Demo for Slide\DAL\DAL\bin\Debug\DAL.dll
+E:\HocTap\DOAN thay Phet\Demo for Slide\DAL\DAL\bin\Debug\DAL.pdb
+E:\HocTap\DOAN thay Phet\Demo for Slide\DAL\DAL\obj\Debug\DAL.dll
+E:\HocTap\DOAN thay Phet\Demo for Slide\DAL\DAL\obj\Debug\DAL.pdb
+E:\HocTap\DOAN thay Phet\Demo for Slide\DAL\DAL\bin\Debug\DAL.dll.config
+E:\HocTap\DOAN thay Phet\Demo for Slide\DAL\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Hutech\DoAnThayPhet\Demo for Slide\DAL\DAL\bin\Debug\DAL.dll.config
+D:\Hutech\DoAnThayPhet\Demo for Slide\DAL\DAL\bin\Debug\DAL.dll
+D:\Hutech\DoAnThayPhet\Demo for Slide\DAL\DAL\bin\Debug\DAL.pdb
+D:\Hutech\DoAnThayPhet\Demo for Slide\DAL\DAL\obj\Debug\DAL.dll
+D:\Hutech\DoAnThayPhet\Demo for Slide\DAL\DAL\obj\Debug\DAL.pdb
+E:\HocTap\Project Base\Demo for Slide\DAL\DAL\bin\Debug\DAL.dll.config
+E:\HocTap\Project Base\Demo for Slide\DAL\DAL\bin\Debug\DAL.dll
+E:\HocTap\Project Base\Demo for Slide\DAL\DAL\bin\Debug\DAL.pdb
+E:\HocTap\Project Base\Demo for Slide\DAL\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\HocTap\Project Base\Demo for Slide\DAL\DAL\obj\Debug\DAL.dll
+E:\HocTap\Project Base\Demo for Slide\DAL\DAL\obj\Debug\DAL.pdb
+E:\HocTap\C#\Project Base\Demo for Slide\DAL\DAL\bin\Debug\DAL.dll.config
+E:\HocTap\C#\Project Base\Demo for Slide\DAL\DAL\bin\Debug\DAL.dll
+E:\HocTap\C#\Project Base\Demo for Slide\DAL\DAL\bin\Debug\DAL.pdb
+E:\HocTap\C#\Project Base\Demo for Slide\DAL\DAL\obj\Debug\DAL.dll
+E:\HocTap\C#\Project Base\Demo for Slide\DAL\DAL\obj\Debug\DAL.pdb
+E:\HocTap\Desktop_App\Project C Shape\Project Base\Demo for Slide\DAL\DAL\bin\Debug\DAL.dll.config
+E:\HocTap\Desktop_App\Project C Shape\Project Base\Demo for Slide\DAL\DAL\bin\Debug\DAL.dll
+E:\HocTap\Desktop_App\Project C Shape\Project Base\Demo for Slide\DAL\DAL\bin\Debug\DAL.pdb
+E:\HocTap\Desktop_App\Project C Shape\Project Base\Demo for Slide\DAL\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\HocTap\Desktop_App\Project C Shape\Project Base\Demo for Slide\DAL\DAL\obj\Debug\DAL.dll
+E:\HocTap\Desktop_App\Project C Shape\Project Base\Demo for Slide\DAL\DAL\obj\Debug\DAL.pdb

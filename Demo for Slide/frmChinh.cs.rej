@@ -1,0 +1,14 @@
+diff a/Demo for Slide/frmChinh.cs b/Demo for Slide/frmChinh.cs	(rejected hunks)
+@@ -142,9 +142,9 @@
+ 
+         private void btHTDoiMatKhau_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+         {
+-            frmDangNhap frmDN = new frmDangNhap();
+-            frmDN.ShowDialog();
+-            this.Close();
++            frmDN = new frmDangNhap();
++            frmDN.Show();
++            this.Hide();
+         }
+     }
+ }

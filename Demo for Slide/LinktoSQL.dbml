@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QLSP" Class="LinktoSQLDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=QLSP;Integrated Security=True" SettingsObjectName="Demo.Properties.Settings" SettingsPropertyName="QLSPConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.CT_HDTT" Member="CT_HDTTs">
+    <Type Name="CT_HDTT">
+      <Column Name="SoHD" Type="System.String" DbType="VarChar(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SoHDTT" Type="System.String" DbType="VarChar(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NgayLap" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SoLuongSPThue" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TraTruoc" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Lydo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TongTienThanhToan" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="HDTT_CT_HDTT" Member="HDTT" ThisKey="SoHDTT" OtherKey="SoHDTT" Type="HDTT" IsForeignKey="true" />
+      <Association Name="HOPDONG_CT_HDTT" Member="HOPDONG" ThisKey="SoHD" OtherKey="SoHD" Type="HOPDONG" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.XuatSP" Member="XuatSPs">
+    <Type Name="XuatSP">
+      <Column Name="NgayXuat" Type="System.DateTime" DbType="DateTime NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="GhiChu" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+      <Column Name="MaSP" Type="System.String" DbType="VarChar(3) NOT NULL" CanBeNull="false" />
+      <Association Name="SANPHAM_XuatSP" Member="SANPHAM" ThisKey="MaSP" OtherKey="MaSP" Type="SANPHAM" IsForeignKey="true" />
+      <Association Name="SANPHAM1_XuatSP" Member="SANPHAM1" ThisKey="MaSP" OtherKey="MaSP" Type="SANPHAM1" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CT_HOPDONG" Member="CT_HOPDONGs">
+    <Type Name="CT_HOPDONG">
+      <Column Name="MaLoaiSP" Type="System.String" DbType="VarChar(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SoHD" Type="System.String" DbType="VarChar(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SoLuong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NgayNhan" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="NgayTra" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Gia" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GhiChu" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+      <Association Name="HOPDONG_CT_HOPDONG" Member="HOPDONG" ThisKey="SoHD" OtherKey="SoHD" Type="HOPDONG" IsForeignKey="true" />
+      <Association Name="LOAISP_CT_HOPDONG" Member="LOAISP" ThisKey="MaLoaiSP" OtherKey="MaLoaiSP" Type="LOAISP" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DATSP" Member="DATSPs">
+    <Type Name="DATSP">
+      <Column Name="NgayHenDat" Type="System.DateTime" DbType="DateTime NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SoLuongDat" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NgayHenLay" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TinhTrang" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="MaLoaiSP" Type="System.String" DbType="VarChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="CMND" Type="System.String" DbType="VarChar(12) NOT NULL" CanBeNull="false" />
+      <Association Name="KHACHHANG_DATSP" Member="KHACHHANG" ThisKey="CMND" OtherKey="CMND" Type="KHACHHANG" IsForeignKey="true" />
+      <Association Name="LOAISP_DATSP" Member="LOAISP" ThisKey="MaLoaiSP" OtherKey="MaLoaiSP" Type="LOAISP" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.HDTT" Member="HDTTs">
+    <Type Name="HDTT">
+      <Column Name="SoHDTT" Type="System.String" DbType="VarChar(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NgayNhan" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="NgayTra" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ThanhTien" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MaSP" Type="System.String" DbType="VarChar(3) NOT NULL" CanBeNull="false" />
+      <Association Name="HDTT_CT_HDTT" Member="CT_HDTTs" ThisKey="SoHDTT" OtherKey="SoHDTT" Type="CT_HDTT" />
+      <Association Name="SANPHAM_HDTT" Member="SANPHAM" ThisKey="MaSP" OtherKey="MaSP" Type="SANPHAM" IsForeignKey="true" />
+      <Association Name="SANPHAM1_HDTT" Member="SANPHAM1" ThisKey="MaSP" OtherKey="MaSP" Type="SANPHAM1" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.HOPDONG" Member="HOPDONGs">
+    <Type Name="HOPDONG">
+      <Column Name="SoHD" Type="System.String" DbType="VarChar(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NgayLap" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DonGia" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TienTamUng" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="HOPDONG_CT_HDTT" Member="CT_HDTTs" ThisKey="SoHD" OtherKey="SoHD" Type="CT_HDTT" />
+      <Association Name="HOPDONG_CT_HOPDONG" Member="CT_HOPDONGs" ThisKey="SoHD" OtherKey="SoHD" Type="CT_HOPDONG" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KHACHHANG" Member="KHACHHANGs">
+    <Type Name="KHACHHANG">
+      <Column Name="CMND" Type="System.String" DbType="VarChar(12) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="HoTenKH" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="DiaChiKH" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DIenThoaiKH" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Association Name="KHACHHANG_DATSP" Member="DATSPs" ThisKey="CMND" OtherKey="CMND" Type="DATSP" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LOAISP" Member="LOAISPs">
+    <Type Name="LOAISP">
+      <Column Name="MaLoaiSP" Type="System.String" DbType="VarChar(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenLoaiSP" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="SoLuongSP" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="LOAISP_CT_HOPDONG" Member="CT_HOPDONGs" ThisKey="MaLoaiSP" OtherKey="MaLoaiSP" Type="CT_HOPDONG" />
+      <Association Name="LOAISP_DATSP" Member="DATSPs" ThisKey="MaLoaiSP" OtherKey="MaLoaiSP" Type="DATSP" />
+      <Association Name="LOAISP_SANPHAM" Member="SANPHAMs" ThisKey="MaLoaiSP" OtherKey="MaLoaiSP" Type="SANPHAM" />
+      <Association Name="LOAISP_SANPHAM1" Member="SANPHAM1s" ThisKey="MaLoaiSP" OtherKey="MaLoaiSP" Type="SANPHAM1" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NHANVIEN" Member="NHANVIENs">
+    <Type Name="NHANVIEN">
+      <Column Name="MaNV" Type="System.String" DbType="VarChar(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenDangNhap" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="HoTenNV" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="TenDayDu" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="MatKhau" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Association Name="NHANVIEN_PHANQUYEN" Member="PHANQUYENs" ThisKey="MaNV" OtherKey="MaNV" Type="PHANQUYEN" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NHAPSP" Member="NHAPSPs">
+    <Type Name="NHAPSP">
+      <Column Name="NgayNhap" Type="System.DateTime" DbType="DateTime NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="GhiChu" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+      <Column Name="MaSP" Type="System.String" DbType="VarChar(3) NOT NULL" CanBeNull="false" />
+      <Association Name="SANPHAM_NHAPSP" Member="SANPHAM" ThisKey="MaSP" OtherKey="MaSP" Type="SANPHAM" IsForeignKey="true" />
+      <Association Name="SANPHAM1_NHAPSP" Member="SANPHAM1" ThisKey="MaSP" OtherKey="MaSP" Type="SANPHAM1" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PHANQUYEN" Member="PHANQUYENs">
+    <Type Name="PHANQUYEN">
+      <Column Name="IDQUYEN" Type="System.String" DbType="VarChar(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MaNV" Type="System.String" DbType="VarChar(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="NHANVIEN_PHANQUYEN" Member="NHANVIEN" ThisKey="MaNV" OtherKey="MaNV" Type="NHANVIEN" IsForeignKey="true" />
+      <Association Name="QUYEN_PHANQUYEN" Member="QUYEN" ThisKey="IDQUYEN" OtherKey="IDQUYEN" Type="QUYEN" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QUYEN" Member="QUYENs">
+    <Type Name="QUYEN">
+      <Column Name="IDQUYEN" Type="System.String" DbType="VarChar(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenQuyen" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Association Name="QUYEN_PHANQUYEN" Member="PHANQUYENs" ThisKey="IDQUYEN" OtherKey="IDQUYEN" Type="PHANQUYEN" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SANPHAM" Member="SANPHAMs">
+    <Type Name="SANPHAM">
+      <Column Name="MaSP" Type="System.String" DbType="VarChar(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MoTa" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="TinhTrang" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="MaLoaiSP" Type="System.String" DbType="VarChar(3) NOT NULL" CanBeNull="false" />
+      <Association Name="SANPHAM_XuatSP" Member="XuatSPs" ThisKey="MaSP" OtherKey="MaSP" Type="XuatSP" />
+      <Association Name="SANPHAM_HDTT" Member="HDTTs" ThisKey="MaSP" OtherKey="MaSP" Type="HDTT" />
+      <Association Name="SANPHAM_NHAPSP" Member="NHAPSPs" ThisKey="MaSP" OtherKey="MaSP" Type="NHAPSP" />
+      <Association Name="LOAISP_SANPHAM" Member="LOAISP" ThisKey="MaLoaiSP" OtherKey="MaLoaiSP" Type="LOAISP" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SANPHAM" Member="SANPHAM1s">
+    <Type Name="SANPHAM1">
+      <Column Name="MaSP" Type="System.String" DbType="VarChar(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MoTa" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="TinhTrang" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="MaLoaiSP" Type="System.String" DbType="VarChar(3) NOT NULL" CanBeNull="false" />
+      <Association Name="SANPHAM1_XuatSP" Member="XuatSPs" ThisKey="MaSP" OtherKey="MaSP" Type="XuatSP" />
+      <Association Name="SANPHAM1_HDTT" Member="HDTTs" ThisKey="MaSP" OtherKey="MaSP" Type="HDTT" />
+      <Association Name="SANPHAM1_NHAPSP" Member="NHAPSPs" ThisKey="MaSP" OtherKey="MaSP" Type="NHAPSP" />
+      <Association Name="LOAISP_SANPHAM1" Member="LOAISP" ThisKey="MaLoaiSP" OtherKey="MaLoaiSP" Type="LOAISP" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

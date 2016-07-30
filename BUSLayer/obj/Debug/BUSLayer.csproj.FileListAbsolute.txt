@@ -1,0 +1,56 @@
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\BUSLayer\bin\Debug\BUSLayer.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\BUSLayer\bin\Debug\BUSLayer.pdb
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\BUSLayer\bin\Debug\DAL.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\BUSLayer\bin\Debug\DAL.pdb
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\BUSLayer\obj\Debug\BUSLayer.csprojResolveAssemblyReference.cache
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\BUSLayer\obj\Debug\BUSLayer.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\BUSLayer\obj\Debug\BUSLayer.pdb
+C:\Users\ThaiHung\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\BUSLayer\bin\Debug\BUSLayer.dll
+C:\Users\ThaiHung\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\BUSLayer\bin\Debug\BUSLayer.pdb
+C:\Users\ThaiHung\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\BUSLayer\bin\Debug\DAL.dll
+C:\Users\ThaiHung\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\BUSLayer\bin\Debug\DAL.pdb
+C:\Users\ThaiHung\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\BUSLayer\obj\Debug\BUSLayer.csprojResolveAssemblyReference.cache
+C:\Users\ThaiHung\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\BUSLayer\obj\Debug\BUSLayer.dll
+C:\Users\ThaiHung\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\BUSLayer\obj\Debug\BUSLayer.pdb
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\BUSLayer\bin\Debug\BUSLayer.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\BUSLayer\bin\Debug\BUSLayer.pdb
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\BUSLayer\bin\Debug\DAL.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\BUSLayer\bin\Debug\DAL.pdb
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\BUSLayer\obj\Debug\BUSLayer.csprojResolveAssemblyReference.cache
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\BUSLayer\obj\Debug\BUSLayer.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\BUSLayer\obj\Debug\BUSLayer.pdb
+E:\HocTap\DOAN thay Phet\BUSLayer\bin\Debug\BUSLayer.dll
+E:\HocTap\DOAN thay Phet\BUSLayer\bin\Debug\BUSLayer.pdb
+E:\HocTap\DOAN thay Phet\BUSLayer\bin\Debug\DAL.dll
+E:\HocTap\DOAN thay Phet\BUSLayer\bin\Debug\DAL.pdb
+E:\HocTap\DOAN thay Phet\BUSLayer\obj\Debug\BUSLayer.csprojResolveAssemblyReference.cache
+E:\HocTap\DOAN thay Phet\BUSLayer\obj\Debug\BUSLayer.dll
+E:\HocTap\DOAN thay Phet\BUSLayer\obj\Debug\BUSLayer.pdb
+D:\Hutech\DoAnThayPhet\BUSLayer\bin\Debug\BUSLayer.dll
+D:\Hutech\DoAnThayPhet\BUSLayer\bin\Debug\BUSLayer.pdb
+D:\Hutech\DoAnThayPhet\BUSLayer\bin\Debug\DAL.dll
+D:\Hutech\DoAnThayPhet\BUSLayer\bin\Debug\DAL.pdb
+D:\Hutech\DoAnThayPhet\BUSLayer\obj\Debug\BUSLayer.csprojResolveAssemblyReference.cache
+D:\Hutech\DoAnThayPhet\BUSLayer\obj\Debug\BUSLayer.dll
+D:\Hutech\DoAnThayPhet\BUSLayer\obj\Debug\BUSLayer.pdb
+E:\HocTap\Project Base\BUSLayer\bin\Debug\BUSLayer.dll
+E:\HocTap\Project Base\BUSLayer\bin\Debug\BUSLayer.pdb
+E:\HocTap\Project Base\BUSLayer\bin\Debug\DAL.dll
+E:\HocTap\Project Base\BUSLayer\bin\Debug\DAL.pdb
+E:\HocTap\Project Base\BUSLayer\obj\Debug\BUSLayer.csprojResolveAssemblyReference.cache
+E:\HocTap\Project Base\BUSLayer\obj\Debug\BUSLayer.dll
+E:\HocTap\Project Base\BUSLayer\obj\Debug\BUSLayer.pdb
+E:\HocTap\C#\Project Base\BUSLayer\bin\Debug\BUSLayer.dll
+E:\HocTap\C#\Project Base\BUSLayer\bin\Debug\BUSLayer.pdb
+E:\HocTap\C#\Project Base\BUSLayer\bin\Debug\DAL.dll
+E:\HocTap\C#\Project Base\BUSLayer\bin\Debug\DAL.pdb
+E:\HocTap\C#\Project Base\BUSLayer\obj\Debug\BUSLayer.csprojResolveAssemblyReference.cache
+E:\HocTap\C#\Project Base\BUSLayer\obj\Debug\BUSLayer.dll
+E:\HocTap\C#\Project Base\BUSLayer\obj\Debug\BUSLayer.pdb
+E:\HocTap\Desktop_App\Project C Shape\Project Base\BUSLayer\bin\Debug\BUSLayer.dll
+E:\HocTap\Desktop_App\Project C Shape\Project Base\BUSLayer\bin\Debug\BUSLayer.pdb
+E:\HocTap\Desktop_App\Project C Shape\Project Base\BUSLayer\bin\Debug\DAL.dll
+E:\HocTap\Desktop_App\Project C Shape\Project Base\BUSLayer\bin\Debug\DAL.pdb
+E:\HocTap\Desktop_App\Project C Shape\Project Base\BUSLayer\obj\Debug\BUSLayer.csprojResolveAssemblyReference.cache
+E:\HocTap\Desktop_App\Project C Shape\Project Base\BUSLayer\obj\Debug\BUSLayer.dll
+E:\HocTap\Desktop_App\Project C Shape\Project Base\BUSLayer\obj\Debug\BUSLayer.pdb
